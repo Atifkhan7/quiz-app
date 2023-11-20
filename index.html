@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="question-container">
+      <p id="question-text">Question goes here</p>
+    </div>
+    <div id="options-container">
+      <button class="option" onclick="checkAnswer(0)">Option 1</button>
+      <button class="option" onclick="checkAnswer(1)">Option 2</button>
+      <button class="option" onclick="checkAnswer(2)">Option 3</button>
+      <button class="option" onclick="checkAnswer(3)">Option 4</button>
+    </div>
+    <p id="result"></p>
+    <button id="next-button" onclick="nextQuestion()">Next</button>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
